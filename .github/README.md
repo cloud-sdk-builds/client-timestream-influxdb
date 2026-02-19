@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-timestream-influxdb`](https://www.npmjs.com/package/@aws-sdk/client-timestream-influxdb/v/3.817.0).
+[`@aws-sdk/client-timestream-influxdb`](https://www.npmjs.com/package/@aws-sdk/client-timestream-influxdb/v/3.821.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-influxdb@3.817.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-influxdb@3.821.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-mN+kr1o9odqrY/XLvBNeOnGx+4C6aPGlbmkV+Nv8MpqxocXa9hBVg328dkaL3FCD
+sha384-ExW2o5opYu7WkEGWqF4uaYUzmagVOzBwqIJzYaU2Zy5tfpKZD+wOj7JHj0s4RK8j
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-timestream-influxdb": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-influxdb@3.817.0/index.min.mjs"
+            "@aws-sdk/client-timestream-influxdb": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-influxdb@3.821.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-influxdb@3.817.0/index.min.mjs": "sha384-mN+kr1o9odqrY/XLvBNeOnGx+4C6aPGlbmkV+Nv8MpqxocXa9hBVg328dkaL3FCD"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-influxdb@3.821.0/index.min.mjs": "sha384-ExW2o5opYu7WkEGWqF4uaYUzmagVOzBwqIJzYaU2Zy5tfpKZD+wOj7JHj0s4RK8j"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-timestream-influxdb": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-influxdb@3.817.0/index.min.mjs"
+                        "@aws-sdk/client-timestream-influxdb": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-influxdb@3.821.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-influxdb@3.817.0/index.min.mjs": "sha384-mN+kr1o9odqrY/XLvBNeOnGx+4C6aPGlbmkV+Nv8MpqxocXa9hBVg328dkaL3FCD"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-timestream-influxdb@3.821.0/index.min.mjs": "sha384-ExW2o5opYu7WkEGWqF4uaYUzmagVOzBwqIJzYaU2Zy5tfpKZD+wOj7JHj0s4RK8j"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.817.0`)
+* Always pin to a specific version (`@3.821.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-timestream-influxdb/blob/refs/tags/3.817.0/LICENSE
+https://github.com/cloud-sdk-builds/client-timestream-influxdb/blob/refs/tags/3.821.0/LICENSE
 ```
 
 ---
